@@ -8,15 +8,17 @@ Plugins are **tool-agnostic** — they describe workflows in terms of categories
 
 ## Connectors for this plugin
 
+No connectors are pre-wired in `.mcp.json` for this fork. Skills fall back to what you paste or type directly, except for the knowledge base category, which uses your own `vault` MCP server (Obsidian).
+
 | Category | Placeholder | Included servers | Other options |
 |----------|-------------|-----------------|---------------|
-| Calendar | `~~calendar` | Google Calendar | Microsoft 365 |
-| Chat | `~~chat` | Slack | Microsoft Teams |
-| Competitive intelligence | `~~competitive intelligence` | Similarweb | Crayon, Klue |
-| Design | `~~design` | Figma | Sketch, Adobe XD |
-| Email | `~~email` | Gmail | Microsoft 365 |
+| Calendar | `~~calendar` | — | Google Calendar, Microsoft 365 |
+| Chat | `~~chat` | — | Slack, Microsoft Teams |
+| Competitive intelligence | `~~competitive intelligence` | — | Similarweb, Crayon, Klue |
+| Design | `~~design` | — | Figma, Sketch, Adobe XD |
+| Email | `~~email` | — | Gmail, Microsoft 365 |
 | Knowledge base | `~~knowledge base` | Obsidian (via your `vault` MCP server) | Notion, Confluence, Guru, Coda |
-| Meeting transcription | `~~meeting transcription` | Fireflies | Gong, Dovetail, Otter.ai |
-| Product analytics | `~~product analytics` | Amplitude, Pendo | Mixpanel, Heap, FullStory |
-| Project tracker | `~~project tracker` | Linear, Asana, monday.com, ClickUp, Atlassian (Jira/Confluence) | Shortcut, Basecamp |
-| User feedback | `~~user feedback` | Intercom | Productboard, Canny, UserVoice |
+| Meeting transcription | `~~meeting transcription` | — | Fireflies, Gong, Dovetail, Otter.ai |
+| Product analytics | `~~product analytics` | — | Amplitude, Pendo, Mixpanel, Heap, FullStory |
+| Project tracker | `~~project tracker` | — | Linear, Asana, monday.com, ClickUp, Atlassian (Jira/Confluence), Shortcut, Basecamp |
+| User feedback | `~~user feedback` | — | Intercom, Productboard, Canny, UserVoice |
